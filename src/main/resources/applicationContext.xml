@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"  
+    xmlns:context="http://www.springframework.org/schema/context"  
+    xmlns:mvc="http://www.springframework.org/schema/mvc"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+                        http://www.springframework.org/schema/beans/spring-beans-4.3.xsd    
+                        http://www.springframework.org/schema/context
+                        http://www.springframework.org/schema/context/spring-context-4.3.xsd    
+                        http://www.springframework.org/schema/mvc
+                        http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd">  
+                          
+    <!-- 使用注解式注入 -->  
+    <context:annotation-config />  
+      
+    <!-- 自动扫描 -->  
+    <context:component-scan base-package="cn.zhr" />  
+      
+    <!-- 导入DAO配置 -->  
+    <import resource="classpath:spring/spring-dao.xml"/>  
+      
+    <!-- 导入数据库事务配置 -->  
+    <import resource="classpath:spring/spring-tx.xml"/>  
+    
+    <!-- 导入Shiro配置 -->  
+    <import resource="classpath:spring/spring-shiro.xml"/>  
+    
+    <!-- 导入solr配置 -->  
+    <import resource="classpath:spring/spring-solr.xml"/> 
+     
+    <!-- 导入solr配置 -->  
+    <import resource="classpath:spring/spring-activiti.xml"/>  
+    
+    <!-- 导入数据库配置 -->  
+    <import resource="classpath:spring/spring-jdbc.xml"/>  
+      
+</beans>  

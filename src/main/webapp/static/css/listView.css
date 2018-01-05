@@ -1,0 +1,162 @@
+.commodity-content{
+	background: #eceff4;
+}
+
+.shop-table{
+	margin: 0 20px;
+	margin-top: 20px;
+	background: #fff;
+	border: 1px solid #E3E3E3;
+}
+
+.commodity-search{
+	border-bottom: 0;
+	background: #fff;
+	height: 70px;
+}
+
+.commodity-open{
+	width: 10%;
+}
+
+.commodity-open button{
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 40px;
+	width: 70%;
+	min-width: 90px;
+	background: #FF533F;
+	border-radius: 6px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+
+.search-content{
+	width: 80%;
+	margin-top: 20px;
+}
+
+.commodity-search input{
+	height: 38px;
+	border: 1px solid #E3E3E3;
+}
+
+.commodity-search span{
+	font-size: 14px;
+	color: #6e768f;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 20px;
+}
+
+.simple-input,.area-input,.select-input{
+	margin-right: 30px;
+	margin-bottom: 10px;
+}
+
+.simple-input input{
+	padding: 0 10px;
+	width: 200px;
+	min-width: 160px;
+}
+
+.area-input input{
+	padding: 0 10px;
+	width: 120px;
+	min-width: 100px;
+}
+
+.area-input font{
+	width: 40px;
+	min-width: 30px;
+	text-align: center;
+	line-height: 38px;
+}
+
+.checkbox-input{
+	position: relative;
+	padding-left: 30px;
+}
+
+.select-input select{
+	width: 130px;
+	min-width: 110px;
+	border: 1px solid #E3E3E3;
+	height: 38px;
+	padding: 0 10px;
+}
+
+.search-btn button{
+	margin-top: 12px;
+	display: block;
+	width: 91px;
+	height: 31px;
+	line-height: 29px;
+	background-color: #f7f7fa;
+	border-radius: 15px;
+	font-size: 14px;
+	color: #6E768F;
+	text-align: center;
+	border: 1px solid #E3E3E3;
+}
+
+.search-btn button:hover{
+	background-color: #FF533F;
+	color: #fff;
+	border: none;
+}
+
+.all-input{
+	border-top: 1px solid #e3e3e3;
+	padding-top: 10px;
+	position: relative;
+	padding-left: 40px;
+	padding-bottom: 20px;
+}
+
+.all-input span{
+	line-height: 30px;
+	font-size: 14px;
+	color: #323232;
+	padding-right: 42px;
+}
+
+.all-input button{
+	width: 100px;
+	height: 31px;
+	line-height: 29px;
+	background-color: #dadfea;
+	border-radius: 6px;
+	font-size: 14px;
+	color: #777e96;
+	text-align: center;
+	margin-right: 20px;
+}
+.all-input .icheckbox_square-orange{
+	top: 13px;
+	left: 10px;
+}
+
+.all-input button:hover{
+	background-color: #FF533F;
+	color: #fff;
+}
+
+.icheckbox_square, .icheckbox_square-red, .icheckbox_square-green, .icheckbox_square-blue, .icheckbox_square-aero, .icheckbox_square-grey, .icheckbox_square-orange, .icheckbox_square-yellow, .icheckbox_square-pink, .icheckbox_square-purple, .iradio_square, .iradio_square-red, .iradio_square-green, .iradio_square-blue, .iradio_square-aero, .iradio_square-grey, .iradio_square-orange, .iradio_square-yellow, .iradio_square-pink, .iradio_square-purple{
+	top: 8px;
+}
+
+thead{
+	border-top: 1px solid #e3e3e3;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,199 @@
+/*盒子布局*/
+/*box-flex:num;
+-webkit-box-flex:num;
+-moz-box-flex:num;
+flex:num;
+-webkit-flex:num;*/
+/*display:-webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;*/
+
+/*----------头部-----------*/
+header{
+	width: 100%;
+	height: 80px;
+	background: #262533;
+	min-width: 1366px;
+	overflow-x: auto;
+	/*padding: 0 50px;*/
+}
+
+header h1{
+	margin-left: 50px;
+	line-height: 80px;
+	color: #fff;
+	font-size: 20px;
+}
+
+header div{
+	margin-right: 50px;
+	/*width: 40%;*/
+
+}
+
+header h2{
+	font-size: 14px;
+	color: #eb4f3c;
+	line-height: 80px;
+	margin-right: 18px;
+}
+
+.EM,.out{
+	display: inline-block;
+	width: 25px;
+	height: 17px;
+	background: url(../images/EM.png) no-repeat center;
+	margin-top: 32px;
+	/*background-size:70% ;*/
+}
+
+.out{
+	background: url(../images/out.png) no-repeat center;
+	margin-left: 18px;
+	/*background-size:70% 70%;*/
+	/**/
+}
+
+
+/*----大左侧-------*/
+.sidebar{
+	width: 170px;
+	/*height: 100%;*/
+	background:#2a303e;
+}
+.sideList {
+	/*height: 100%;*/
+	background:#2a303e;
+}
+
+.sideList li{
+	/*height: 30px;*/
+	padding-bottom: 16px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	padding-top: 60px;
+	background: url(../images/pandect.png) no-repeat  center 20px;
+}
+
+.sideList a:nth-child(1) li{
+	/*background-position-x:44px ;*/
+}
+
+.sideList a:nth-child(2) li{
+	background-image: url(../images/commodity.png);
+}
+
+.sideList a:nth-child(3) li{
+	background-image: url(../images/order.png);
+}
+.sideList a:nth-child(4) li{
+	background-image: url(../images/Report.png);
+}
+.sideList a:nth-child(5) li{
+	background-image: url(../images/active.png);
+}
+.sideList a:nth-child(6) li{
+	background-image: url(../images/account.png);
+}
+
+.sideList a li:nth-child(1).active{
+	background-image: url(../images/pandectActive.png);
+	background-color: #343a48;
+}
+
+.sideList a:nth-child(2) li.active{
+	background-image: url(../images/commodityActive.png);
+	background-color: #343a48;
+
+}
+
+.sideList a:nth-child(3) li.active{
+	background-image: url(../images/orderActive.png);
+	background-color: #343a48;
+
+}
+.sideList a:nth-child(4) li.active{
+	background-image: url(../images/ReportActive.png);
+	background-color: #343a48;
+
+}
+.sideList a:nth-child(5) li.active{
+	background-image: url(../images/activeActive.png);
+	background-color: #343a48;
+
+}
+.sideList a:nth-child(6) li.active{
+	background-image: url(../images/accountActive.png);
+	background-color: #343a48;
+
+}
+
+/*-------右侧主题内容--------*/
+.content{
+	width: 100%;
+	min-width: 1366px;
+	/*overflow-x: auto;*/
+	display:-webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	/*height: calc(100%-100);*/
+}
+.rightCon{
+	background: #eceff4;
+	box-flex:1;
+	-webkit-box-flex:1;
+	-moz-box-flex:1;
+	flex:1;
+	-webkit-flex:1;
+	/*height: 100%;*/
+}
+
+/*小左侧*/
+.sideSubset{
+	float: left;
+	width: 160px;
+	background: #f7f6fb;
+}
+
+.sideSubset li h3{
+	font-size: 16px;
+	color: #555560;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.sideSubset li a{
+	display: block;
+	width: 100%;
+	font-size: 14px;
+	color: #80869c;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.sideSubset li a.active{
+	color: #FF533F;
+}
+
+/*内容小导航*/
+
+.subHead{
+	height: 70px;
+	padding-left:40px;
+	background: #fff;
+	line-height: 70px;
+	font-size: 14px;
+	color: #555560;
+}
+
+a{
+		 text-decoration:none; 
+	}
+	a:hover{
+		text-decoration:none; 
+	}
